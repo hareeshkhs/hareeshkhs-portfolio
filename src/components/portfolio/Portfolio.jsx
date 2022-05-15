@@ -10,42 +10,42 @@ import IMG6 from '../../assets/portfolio6.jpg'
 const data = [
   {
     id: 1,
-    image: IMG1,
+    image: IMG2,
     title: 'Virtual Mouse using hand gesture recognition',
     github: 'https://github.com',
     demo: 'https://dribble.com'
   },
   {
     id: 2,
-    image: IMG1,
+    image: IMG2,
     title: 'Virtual Mouse using hand gesture recognition',
     github: 'https://github.com',
     demo: 'https://dribble.com'
   },
   {
     id: 3,
-    image: IMG1,
+    image: IMG2,
     title: 'Virtual Mouse using hand gesture recognition',
     github: 'https://github.com',
     demo: 'https://dribble.com'
   },
   {
     id: 4,
-    image: IMG1,
+    image: IMG2,
     title: 'Virtual Mouse using hand gesture recognition',
     github: 'https://github.com',
     demo: 'https://dribble.com'
   },
   {
     id: 5,
-    image: IMG1,
+    image: IMG2,
     title: 'Virtual Mouse using hand gesture recognition',
     github: 'https://github.com',
     demo: 'https://dribble.com'
   },
   {
     id: 6,
-    image: IMG1,
+    image: IMG2,
     title: 'Virtual Mouse using hand gesture recognition',
     github: 'https://github.com',
     demo: 'https://dribble.com'
