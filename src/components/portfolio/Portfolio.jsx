@@ -17,35 +17,35 @@ const data = [
   },
   {
     id: 2,
-    image: IMG2,
+    image: IMG1,
     title: 'Virtual Mouse using hand gesture recognition',
     github: 'https://github.com',
     demo: 'https://dribble.com'
   },
   {
     id: 3,
-    image: IMG3,
+    image: IMG1,
     title: 'Virtual Mouse using hand gesture recognition',
     github: 'https://github.com',
     demo: 'https://dribble.com'
   },
   {
     id: 4,
-    image: IMG4,
+    image: IMG1,
     title: 'Virtual Mouse using hand gesture recognition',
     github: 'https://github.com',
     demo: 'https://dribble.com'
   },
   {
     id: 5,
-    image: IMG5,
+    image: IMG1,
     title: 'Virtual Mouse using hand gesture recognition',
     github: 'https://github.com',
     demo: 'https://dribble.com'
   },
   {
     id: 6,
-    image: IMG6,
+    image: IMG1,
     title: 'Virtual Mouse using hand gesture recognition',
     github: 'https://github.com',
     demo: 'https://dribble.com'
