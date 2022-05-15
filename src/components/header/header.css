@@ -1,0 +1,120 @@
+header {
+    /* height: 100vh; */
+    padding-top: 3rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.header__container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 0;
+}
+
+.header__container-left {
+    margin-top: 1.5rem;
+}
+
+.header__container-left h2 {
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.header__container-left h5 {
+    font-size: 2rem;
+    color: var(--color-bg-variant);
+}
+
+span {
+    font-weight: 700;
+}
+
+.sroll {
+    font-size: small;
+    margin: 0;
+}
+
+
+.cta {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: left;
+}
+
+.header__socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: auto;
+    bottom: 3rem;
+    font-size: x-large;
+}
+
+.me {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: relative;
+    margin-top: 1.75rem;
+    border-radius: 12rem 12rem 12rem 12rem;
+    left: calc(50% - 11rem);
+    overflow: hidden;
+    /* padding: 3rem 1.5rem 1.5rem 1.5rem; */
+}
+
+@media screen and (max-width: 600px) {
+    .header__container {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 35% 50%;
+        gap: 15%;
+    }
+
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
+
+    .header__socials {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.8rem;
+        position: relative;
+        left: auto;
+        bottom: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        height: auto;
+    }
+
+    .header__container-left {
+        margin-top: 0rem;
+    }
+    
+    .header__container-left h2 {
+        font-size: 3rem;
+    }
+    
+    .header__container-left h5 {
+        font-size: 2rem;
+    }
+
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
+}
